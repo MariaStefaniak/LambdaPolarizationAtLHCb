@@ -58,7 +58,6 @@
  *    • Supports only one file at a time; use merge tool for multiple outputs
  *
  *  Contact:
- *    Maria Stefaniak — mariastefaniak.phys@gmail.com
- *                     stefaniak.9@osu.edu
+ *    Maria Stefaniak — mzstefaniak@gmail.com
  *
  ***********************************************************************************************/
