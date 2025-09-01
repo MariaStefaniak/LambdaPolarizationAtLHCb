@@ -58,7 +58,6 @@
  *    • Cuts are configured for Pb–Pb conditions, adjust for other systems.
  *
  *  CONTACT:
- *    Maria Stefaniak — mariastefaniak.phys@gmail.com
- *                     stefaniak.9@osu.edu
+ *    Maria Stefaniak — mzstefaniak@gmail.com
  *
  ***********************************************************************************************/
