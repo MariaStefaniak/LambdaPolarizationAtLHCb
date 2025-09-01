@@ -1,5 +1,5 @@
 /***********************************************************************************************
- *  MACRO: toroidalVorticityPbPb_K0S::Loop()
+ *  MACRO: toroidalVorticityPbPb_K0S.C
  *  Author: Maria Stefaniak (2025)
  *
  *  ANALYSIS PURPOSE:
