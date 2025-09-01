@@ -2,7 +2,7 @@
 ==========================================================
 
 This repository contains two sets of C++/ROOT-based macros used for analyzing
-Lambda (Λ/Λ̄) and K0S polarization in proton–argon collisions recorded by LHCb
+Lambda (Λ/Λ̄) and K0S polarization in proton–argon (proton-hydrogen) collisions recorded by LHCb
 in 2024, using data from the official Analysis Production:
 https://lhcb-productions.web.cern.ch/ana-prod/productions/?wg=ift&analysis=l02ppiturbo_k0sfull_smog2
 
@@ -18,6 +18,8 @@ Main macro: ExecuteAnalysisOnMultipleFiles.cxx
 
 Supporting logic is contained in associated .C files.
 
+Note: It is straightforward to adapt the Lambda analysis to run on pH data instead of pAr. You only need to modify the input file paths and ensure that the input trees are compatible with the expected DecayFunTuple structure.
+
 How to run:
 > root -l ExecuteAnalysisOnMultipleFiles.cxx
 
@@ -32,9 +34,6 @@ K0S Analysis
 Main class: K0S_analysis.C
 - ROOT-generated analysis skeleton with extensions to apply selection and 
   polarization extraction for K0S → π⁺π⁻ decays.
-
-Main macro: toroidalVorticitySmog.C
-- Applies physics cuts and computes polarization/vorticity-related observables.
 
 ----------------------------------------------------------
 Important Physics Note
